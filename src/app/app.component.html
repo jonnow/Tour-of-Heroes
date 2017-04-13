@@ -5,5 +5,7 @@
   Hello {{name}}
 </div>
 <input type="text" [value]="name" (keyup.enter)="name=$event.target.value">
+
 <input type="text" [(ngModel)]="name">
+
 <button (click)="changeTextColor()">Change Jonno's Color</button>
